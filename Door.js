@@ -9,7 +9,6 @@ class Door extends GameObject {
     }
 
     interact(item, world) {
-        console.log("Door interact world:", world)
         if (!this.key[item.id]){
             world.message = "I don't think that item will work here.";
             return;

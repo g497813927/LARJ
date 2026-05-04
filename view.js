@@ -447,7 +447,6 @@ import "https://cdn.jsdelivr.net/npm/motion@latest/dist/motion.js";
     roomNameEl.textContent = room.name;
     roomDescEl.innerHTML = "";
 
-    console.log("Room contents: ", room.getContents())
     const text = room.description;
 
     // match [label:id] OR [id]

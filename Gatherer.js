@@ -21,7 +21,6 @@ class Gatherer extends Container {
             world.selectedItem = null;
             world.selectedInventoryItem = null;
             const condition = this.checkConditions(world);
-            console.log("Condition:", condition)
             if (condition) {
                 this.applyCondition(condition, world);
             }

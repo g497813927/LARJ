@@ -193,7 +193,6 @@ function handleItem(itemId) {
         return;
     }
     else {
-        console.log("Controller world:", world)
         item.interact(world.selectedInventoryItem, world);
         world.selectedInventoryItem = null;
         world.selectedItem = null;
